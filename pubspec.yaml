@@ -1,0 +1,89 @@
+name: CCD
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - images/Cafe Latte.jpeg
+  - images/title.jpeg
+  - images/hazelnut_latte_1_tcm87-29627_w1024_n.jpeg
+  - images/vanilla_latte_1_tcm87-29634_w1024_n.jpeg
+  - images/caramel_mocha_1_tcm87-29619_w1024_n.jpeg
+  - images/cappuccino_2_tcm87-29616_w1024_n.jpeg
+  - images/iced_mocha_1_tcm87-29631_w1024_n.jpeg
+  - images/iced_wcm_1_tcm87-29632_w1024_n.jpeg
+  - images/mocha_1_tcm87-29633_w1024_n.jpeg
+  - images/white_mocha_frap_1_tcm87-29595_w1024_n.jpeg
+  - images/espresso_frapp_tcm87-29591_w1024_n.jpeg
+  - images/caramel_frappichino_2_tcm87-29588_w1024_n.jpeg
+  - images/java_chip_frap_1_tcm87-29593_w1024_n.jpeg
+  - images/Vietnamese_Cold_Brew_tcm87-62552_w1024_n.png
+  - images/Signature_Chocolate_tcm87-62549_w1024_n.png
+  - images/caramel_mocha_1_tcm87-29619_w1024_n.jpeg
+  - images/iced_mocha_1_tcm87-29631_w1024_n.jpeg
+  - images/sign_hot_choc_2_tcm87-29587_w1024_n.jpeg
+  - images/Crunchy_Red_Hat_Mocha_tcm87-65643_w1024_n.png
+  - images/Jolly_Baked_Apple_Latte_tcm87-63016_w1024_n.png
+  - images/Iced_Jolly_Baked_Apple_Latte_tcm87-60298_w1024_n.png
+  - images/french_press_1_tcm87-29607_w1024_n.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: DancingScript
+      fonts:
+        - asset: fonts/DancingScript-VariableFont_wght.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
